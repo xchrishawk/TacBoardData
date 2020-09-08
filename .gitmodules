@@ -1,0 +1,3 @@
+[submodule "ThirdParty"]
+	path = TacBoardData/ThirdParty
+	url = git@github.com:xchrishawk/TacBoardData-ThirdParty.git
