@@ -1,0 +1,352 @@
+<html>
+    <head>
+        <link href="../../../Reference.css" rel="stylesheet"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            @media screen and (max-width: 450px) {
+                body { font-size: small; }
+                table.standard { font-size: small; }
+            }
+            table.standard { width: 100%; }
+            table.standard td { line-height: 150%; text-align: center; }
+            li { margin-bottom: 0.5em; }
+        </style>
+    </head>
+    <body>
+        <h2>Weight / Drag Indices</h2>
+        <ul>
+            <li><a href="#Notes">Notes</a></li>
+            <li><a href="#Racks">Racks</a></li>
+            <li><a href="#Stores">Stores</a></li>
+            <ul>
+                <li><a href="#AirToAirMissiles">Air-to-Air Missiles</a></li>
+                <li><a href="#AirToGroundMissiles">Air-to-Ground Missiles</a></li>
+                <li><a href="#Bombs">Bombs</a></li>
+                <li><a href="#Pods">Pods</a></li>
+                <li><a href="#Rockets">Rockets</a></li>
+            </ul>
+        </ul>
+        <h3><a name="Notes"/>Notes</h3>
+        <p>Store weights and drag indices are used in performance calculations to determine the expected aircraft performance based on the mission loadout.</p>
+        <p><b>NOTE</b>: The DCS loadout UI automatically calculates and displays the total aircraft weight. Drag index must be calculated manually.</p>
+        <h4>Weight</h4>
+        <ul>
+            <li>Basic aircraft weights are as follows:</li>
+            <ul>
+                <li>Empty Aircraft: <b>24967 lb</b></li>
+                <li>Empty Aircraft + Full Fuel: <b>36054 lb</b></li>
+                <li>Empty Aircraft + Full Fuel + Full Cannon Ammo: <b>37829 lb</b></li>
+            </ul>
+            <li>To determine the total aircraft weight, start with the appropriate basic weight from the above table, and then add the sum of the weights of all equipped stores (<i>including</i> equipment racks where applicable).</li>
+        </ul>
+        <h4>Drag Index</h4>
+        <ul>
+            <li>Drag index of empty aircraft is equal to 0.0.</li>
+            <li>To determine the total drag index, sum the drag indices for all equipped stores (<i>including</i> equipment racks where applicable).</li>
+        </ul>
+        <h3><a name="Racks"/>Racks</h3>
+        <table class="standard">
+            <tr>
+                <th width="25%">Name</th>
+                <th colspan="2" width="25%">Notes</th>
+                <th width="25%">Weight (lb)</th>
+                <th width="25%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>BRU-42</td>
+                <td colspan="2">Bomb ×3</td>
+                <td>143 lb</td>
+                <td>0.74</td>
+            </tr>
+            <tr>
+                <td rowspan="2">LAU-68</td>
+                <td rowspan="2" width="12.5%">Rockets ×7</td>
+                <td width="12.5%">Full</td>
+                <td>188 lb</td>
+                <td>0.29</td>
+            </tr>
+            <tr>
+                <td>Empty</td>
+                <td>188 lb</td>
+                <td>0.80</td>
+            </tr>
+            <tr>
+                <td>LAU-88</td>
+                <td colspan="2">Maverick ×3</td>
+                <td>465 lb</td>
+                <td>0.50</td>
+            </tr>
+            <tr>
+                <td>LAU-105</td>
+                <td colspan="2">AIM-9 ×2</td>
+                <td>40 lb</td>
+                <td>0.23</td>
+            </tr>
+            <tr>
+                <td>LAU-117</td>
+                <td colspan="2">Maverick ×1</td>
+                <td>130 lb</td>
+                <td>0.20</td>
+            </tr>
+            <tr>
+                <td rowspan="2">LAU-131</td>
+                <td rowspan="2">Rockets ×7</td>
+                <td>Full</td>
+                <td>161 lb</td>
+                <td>0.29</td>
+            </tr>
+            <tr>
+                <td>Empty</td>
+                <td>161 lb</td>
+                <td>0.80</td>
+            </tr>
+            <tr>
+                <td>SUU-25</td>
+                <td colspan="2">Flare ×8</td>
+                <td>47 lb</td>
+                <td>0.98</td>
+            </tr>
+        </table>
+        <h3><a name="Stores"/>Stores</h3>
+        <h4><a name="AirToAirMissiles"/>Air-to-Air Missiles</h4>
+        <table class="standard">
+            <tr>
+                <th width="33.3%">Name</th>
+                <th width="33.3%">Weight (lb)</th>
+                <th width="33.3%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>AIM-9L</td>
+                <td>216 lb</td>
+                <td rowspan="3">0.40<br/>(All Sidewinders)</td>
+            </tr>
+            <tr>
+                <td>AIM-9M</td>
+                <td>218 lb</td>
+            </tr>
+            <tr>
+                <td>CAP-9M</td>
+                <td>216 lb</td>
+            </tr>
+        </table>
+        <h4><a name="AirToGroundMissiles"/>Air-to-Ground Missiles</h4>
+        <table class="standard">
+            <tr>
+                <th width="33.3%">Name</th>
+                <th width="33.3%">Weight (lb)</th>
+                <th width="33.3%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>AGM-65D</td>
+                <td>481 lb</td>
+                <td rowspan="8">0.82<br/>(All Mavericks)</td>
+            </tr>
+            <tr>
+                <td>AGM-65G</td>
+                <td>664 lb</td>
+            </tr>
+            <tr>
+                <td>AGM-65H</td>
+                <td>459 lb</td>
+            </tr>
+            <tr>
+                <td>AGM-65K</td>
+                <td>794 lb</td>
+            </tr>
+            <tr>
+                <td>CATM-65K</td>
+                <td>794 lb</td>
+            </tr>
+            <tr>
+                <td>TGM-65D</td>
+                <td>481 lb</td>
+            </tr>
+            <tr>
+                <td>TGM-65G</td>
+                <td>664 lb</td>
+            </tr>
+            <tr>
+                <td>TGM-65H</td>
+                <td>459 lb</td>
+            </tr>
+        </table>
+        <h4><a name="Bombs"/>Bombs</h4>
+        <table class="standard">
+            <tr>
+                <th width="33.3%">Name</th>
+                <th width="33.3%">Weight (lb)</th>
+                <th width="33.3%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>BDU-33</td>
+                <td>25 lb</td>
+                <td>0.02</td>
+            </tr>
+            <tr>
+                <td>BDU-50LD</td>
+                <td>511 lb</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>BDU-50HD</td>
+                <td>511 lb</td>
+                <td>0.38</td>
+            </tr>
+            <tr>
+                <td>BDU-50LGB</td>
+                <td>617 lb</td>
+                <td>0.51</td>
+            </tr>
+            <tr>
+                <td>CBU-87</td>
+                <td>948 lb</td>
+                <td>1.17</td>
+            </tr>
+            <tr>
+                <td>CBU-97</td>
+                <td>919 lb</td>
+                <td>1.17</td>
+            </tr>
+            <tr>
+                <td>CBU-103</td>
+                <td>948 lb</td>
+                <td>1.17</td>
+            </tr>
+            <tr>
+                <td>CBU-105</td>
+                <td>919 lb</td>
+                <td>1.17</td>
+            </tr>
+            <tr>
+                <td>GBU-10</td>
+                <td>2562 lb</td>
+                <td>1.46</td>
+            </tr>
+            <tr>
+                <td>GBU-12</td>
+                <td>606 lb</td>
+                <td>0.51</td>
+            </tr>
+            <tr>
+                <td>GBU-31</td>
+                <td>1971 lb</td>
+                <td>0.40</td>
+            </tr>
+            <tr>
+                <td>GBU-31(V)3/B</td>
+                <td>2163 lb</td>
+                <td>0.40</td>
+            </tr>
+            <tr>
+                <td>GBU-38</td>
+                <td>531 lb</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>LUU-2</td>
+                <td>30 lb</td>
+                <td>N/A<br/>(See SUU-25)</td>
+            </tr>
+            <tr>
+                <td>Mk-82</td>
+                <td>531 lb</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Mk-82AIR</td>
+                <td>511 lb</td>
+                <td>0.38</td>
+            </tr>
+            <tr>
+                <td>Mk-84</td>
+                <td>1971 lb</td>
+                <td>0.40</td>
+            </tr>
+        </table>
+        <h4><a name="Pods"/>Pods</h4>
+        <table class="standard">
+            <tr>
+                <th width="33.3%">Name</th>
+                <th width="33.3%">Weight (lb)</th>
+                <th width="33.3%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>ALQ-131</td>
+                <td>672 lb</td>
+                <td>1.18</td>
+            </tr>
+            <tr>
+                <td>ALQ-184</td>
+                <td>474 lb</td>
+                <td>1.18 (?)</td>
+            </tr>
+            <tr>
+                <td>AN/AAQ-28 LITENING</td>
+                <td>661 lb</td>
+                <td>1.17</td>
+            </tr>
+            <tr>
+                <td>AN/ASQ-T50 TCTS Pod</td>
+                <td>165 lb</td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td>MXU-648</td>
+                <td>661 lb</td>
+                <td>0.75</td>
+            </tr>
+            <tr>
+                <td>Smokewinder</td>
+                <td>441 lb</td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td>TK600</td>
+                <td>243 lb (Tank)<br/>4001 lb (fuel)</td>
+                <td>1.45</td>
+            </tr>
+        </table>
+        <h4><a name="Rockets"/>Rockets</h4>
+        <table class="standard">
+            <tr>
+                <th width="33.3%">Name</th>
+                <th width="33.3%">Weight (lb)</th>
+                <th width="33.3%">Drag Index</th>
+            </tr>
+            <tr>
+                <td>M151</td>
+                <td>9.3 lb</td>
+                <td rowspan="8">N/A<br/>(See LAU-68/131)</td>
+            </tr>
+            <tr>
+                <td>M156</td>
+                <td>9.56 lb</td>
+            </tr>
+            <tr>
+                <td>M257</td>
+                <td>11 lb</td>
+            </tr>
+            <tr>
+                <td>M274</td>
+                <td>9.3 lb</td>
+            </tr>
+            <tr>
+                <td>MK1</td>
+                <td>10 lb (?)</td>
+            </tr>
+            <tr>
+                <td>MK5</td>
+                <td>10 lb (?)</td>
+            </tr>
+            <tr>
+                <td>MK61</td>
+                <td>10 lb (?)</td>
+            </tr>
+            <tr>
+                <td>WTU1B</td>
+                <td>9.3 lb</td>
+            </tr>
+        </table>
+    </body>
+</html>

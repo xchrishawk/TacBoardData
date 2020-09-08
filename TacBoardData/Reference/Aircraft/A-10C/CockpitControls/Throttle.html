@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <link href="../../../Reference.css" rel="stylesheet"/>
+        <link href="CockpitControls.css" rel="stylesheet"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        
+        <!-- TOC -->
+        <h2>Contents</h2>
+        <table class="contents">
+            <tr>
+                <td>
+                    <ul>
+                        <li><a href="#Diagram">Diagram</a></li>
+                        <li><a href="#MicSwitch">Mic Switch</a></li>
+                        <li><a href="#SpeedBrake">Speed Brake Switch</a></li>
+                        <li><a href="#BoatSwitch">Boat Switch</a></li>
+                        <li><a href="#ChinaHatSwitch">China Hat Switch</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#PinkySwitch">Pinky Switch</a></li>
+                        <li><a href="#LeftThrottleButton">Left Throttle Button</a></li>
+                        <li><a href="#SlewControl">Slew Control</a></li>
+                        <li><a href="#CoolieHat">Coolie Hat Switch</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Diagram -->
+        <h2><a name="Diagram"/>Diagram</h2>
+        <img src="Throttle.jpg"/>
+        
+        <!-- Mic Switch -->
+        <h2><a name="MicSwitch"/>Mic Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span></th>
+                <td colspan="5"><span class="na">N/A</span></td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span></th>
+                <td colspan="5">UHF Transmit</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span></th>
+                <td colspan="5">VHF 2 Transmit</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span></th>
+                <td colspan="5">VHF 1 Transmit</td>
+            </tr>
+        </table>
+        
+        <!-- Speed Brake -->
+        <h2><a name="SpeedBrake"/>Speed Brake Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Position</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">Forward</th>
+                <td colspan="5">Retract Speed Brake</td>
+            </tr>
+            <tr>
+                <th class="press">Center</th>
+                <td colspan="5">Hold Speed Brake</td>
+            </tr>
+            <tr>
+                <th class="press">Aft</th>
+                <td colspan="5">Extend Speed Brake</td>
+            </tr>
+        </table>
+        
+        <!-- Boat Switch -->
+        <h2><a name="BoatSwitch"/>Boat Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Position</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">Forward</th>
+                <td colspan="2" rowspan="3"><span class="na">N/A</span></td>
+                <td>FLIR<br/>BHOT</td>
+                <td>Black<br/>Symbols</td>
+                <td rowspan="3"><span class="na">N/A</span></td>
+            </tr>
+            <tr>
+                <th class="press">Center</th>
+                <td>CCD</td>
+                <td>Force Correlate<br/>AUTO</td>
+            </tr>
+            <tr>
+                <th class="press">Aft</th>
+                <td>FLIR<br/>WHOT</td>
+                <td>White<br/>Symbols</td>
+            </tr>
+        </table>
+        
+        <!-- China Hat Switch -->
+        <h2><a name="ChinaHatSwitch"/>China Hat Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Position</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">Forward<br/>Short</th>
+                <td>Set SOI<br/>to MAV</td>
+                <td>Toggle FOV</td>
+                <td>Toggle FOV</td>
+                <td>Toggle FOV</td>
+                <td>Uncage</td>
+            </tr>
+            <tr>
+                <th class="press">Forward<br/>Long</th>
+                <td colspan="4">Slave All<br/>to SPI</td>
+                <td>Slave to<br/>TGP</td>
+            </tr>
+            <tr>
+                <th class="press">Aft<br/>Short</th>
+                <td>Reset<br/>TDC</td>
+                <td>Reset<br/>Cursor</td>
+                <td>Boresight<br/>TGP</td>
+                <td colspan="2">Missile Step</td>
+            </tr>
+            <tr>
+                <th class="press">Aft<br/>Long</th>
+                <td colspan="5">Slave TGP to Steerpoint</td>
+            </tr>
+        </table>
+        
+        <!-- Pinky Swich -->
+        <h2><a name="PinkySwitch"/>Pinky Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Position</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">Forward</th>
+                <td colspan="5">Exterior Lights Default</td>
+            </tr>
+            <tr>
+                <th class="press">Center</th>
+                <td colspan="5">Exterior Lights Off</td>
+            </tr>
+            <tr>
+                <th class="press">Aft</th>
+                <td colspan="5">Exterior Lights Per Panel</td>
+            </tr>
+        </table>
+        
+        <!-- Left Throttle Button -->
+        <h2><a name="LeftThrottleButton"/>Left Throttle Button</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">State</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">All</th>
+                <td colspan="5">Toggle Autopilot</td>
+            </tr>
+        </table>
+        
+        <!-- Slew Control -->
+        <h2><a name="SlewControl"/>Slew Control</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">State</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">All</th>
+                <td>Slew<br/>TDC</td>
+                <td>Slew<br/>Cursor</td>
+                <td>Slew<br/>TGP LOS</td>
+                <td>Slew<br/>Maverick</td>
+                <td>Slew<br/>AIM-9</td>
+            </tr>
+        </table>
+        <p class="note"><b>NOTE</b>: Up on slew control (i.e., towards pilot) corresponds to up on display.</p>
+        
+        <!-- Coolie Hat -->
+        <h2><a name="CoolieHat"/>Coolie Hat</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span></th>
+                <td colspan="5">Set SOI to HUD</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span><br/>Short</th>
+                <td colspan="5">Swap MFCD Content</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span><br/>Long</th>
+                <td colspan="5">DSMS Quick Look</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Short</th>
+                <td colspan="5">Cycle Left MFCD</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Long</th>
+                <td colspan="5">Set SOI to Left MFCD</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span><br/>Short</th>
+                <td colspan="5">Cycle Right MFCD</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span><br/>Long</th>
+                <td colspan="5">Set SOI to Right MFCD</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

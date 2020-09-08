@@ -1,0 +1,7 @@
+/* Import the main reference CSS */
+@import "../../../Reference.css";
+
+/* Force instructions to be a bit smaller than the main diagram. */
+img.instructions {
+    max-width: 60%;
+}

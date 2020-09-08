@@ -1,0 +1,288 @@
+<html>
+    <head>
+        <link href="../../../Reference.css" rel="stylesheet"/>
+        <link href="CockpitControls.css" rel="stylesheet"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        
+        <!-- TOC -->
+        <h2>Contents</h2>
+        <table class="contents">
+            <tr>
+                <td>
+                    <ul>
+                        <li><a href="#Diagram">Diagram</a></li>
+                        <li><a href="#Trigger">Trigger</a></li>
+                        <li><a href="#WeaponReleaseButton">Weapon Release Button</a></li>
+                        <li><a href="#MMCB">Master Mode Control Button (MMCB)</a></li>
+                        <li><a href="#Trim">Trim Switch</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#DMS">Display Management Switch (DMS)</a></li>
+                        <li><a href="#TMS">Target Management Switch (TMS)</a></li>
+                        <li><a href="#CMS">Countermeasures Switch (CMS)</a></li>
+                        <li><a href="#NWS">Nosewheel Steering Button (NWS)</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Diagram -->
+        <h2><a name="Diagram"/>Diagram</h2>
+        <img src="ControlStick.jpg"/>
+        
+        <!-- Trigger -->
+        <h2><a name="Trigger"/>Trigger</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Stage</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">First Stage</th>
+                <td colspan="5">Enable PAC</td>
+            </tr>
+            <tr>
+                <th class="press">Second Stage</th>
+                <td colspan="5">Fire Cannon</td>
+            </tr>
+        </table>
+        <p class="note"><b>NOTE</b>: PAC is disabled if AHCP GUN switch is set to GUNARM.</p>
+        
+        <!-- Weapon Release Button -->
+        <h2><a name="WeaponReleaseButton"/>Weapon Release Button</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">State</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">All</th>
+                <td colspan="5">Release Weapon</td>
+            </tr>
+        </table>
+        <p class="note"><b>NOTE</b>: Some weapons (including Paveway and JDAM) require button to be held for one second before release.</p>
+        
+        <!-- MMCB -->
+        <h2><a name="MMCB"/>Master Mode Control Button (MMCB)</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">Short</th>
+                <td colspan="5">Toggle HUD</td>
+            </tr>
+            <tr>
+                <th class="press">Long</th>
+                <td colspan="5">Select Air-to-Air Mode</td>
+            </tr>
+        </table>
+        
+        <!-- Trim Switch -->
+        <h2><a name="Trim"/>Trim Switch</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span></th>
+                <td colspan="5">Pitch Trim Down</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span></th>
+                <td colspan="5">Pitch Trim Up</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span></th>
+                <td colspan="5">Roll Trim Left</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span></th>
+                <td colspan="5">Roll Trim Right</td>
+            </tr>
+        </table>
+        
+        <!-- DMS -->
+        <h2><a name="DMS"/>Display Management Switch (DMS)</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span></th>
+                <td>Increment<br/>Steerpoint</td>
+                <td>Increase<br/>Scale</td>
+                <td>Increase<br/>Zoom</td>
+                <td>Reticle<br/>Up</td>
+                <td rowspan="2"><span class="na">N/A</span></td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span></th>
+                <td>Decrement<br/>Steerpoint</td>
+                <td>Decrease<br/>Scale</td>
+                <td>Decrease<br/>Zoom</td>
+                <td>Reticle<br/>Down</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Short</th>
+                <td>Cycle<br/>Gunsight</td>
+                <td><span class="na">N/A</span></td>
+                <td>FLIR<br/>Auto Focus</td>
+                <td>Reticle<br/>Left</td>
+                <td>Cycle<br/>Target</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Long</th>
+                <td colspan="5">Broadcast SPI</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span><br/>Short</th>
+                <td>Cycle<br/>Gunsight</td>
+                <td>Toggle<br/>DEP Mode</td>
+                <td>Toggle<br/>Laser</td>
+                <td>Reticle<br/>Right</td>
+                <td>Cycle<br/>Target</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span><br/>Long</th>
+                <td colspan="2"><span class="na">N/A</span></td>
+                <td>Toggle<br/>LSS</td>
+                <td colspan="2"><span class="na">N/A</span></td>
+            </tr>
+        </table>
+        
+        <!-- TMS -->
+        <h2><a name="TMS"/>Target Management Switch (TMS)</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span><br/>Short</th>
+                <td>Stabilize<br/>TDC</td>
+                <td>Hook</td>
+                <td>Toggle<br/>Track</td>
+                <td>Track</td>
+                <td>Scan</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span><br/>Long</th>
+                <td colspan="5">Select SPI</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span><br/>Short</th>
+                <td>Set SPI<br/>Submode</td>
+                <td>Unhook</td>
+                <td>INR<br/>Track</td>
+                <td>Ground<br/>Stabilize</td>
+                <td>Break<br/>Lock</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span><br/>Long</th>
+                <td colspan="5">SPI to Steerpoint</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Short</th>
+                <td colspan="5">Reset WCN</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span><br/>Long</th>
+                <td colspan="3"><span class="na">N/A</span></td>
+                <td>Space<br/>Stabilize</td>
+                <td><span class="na">N/A</span></td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span></th>
+                <td colspan="5">Create Markpoint</td>
+            </tr>
+        </table>
+        
+        <!-- CMS -->
+        <h2><a name="CMS"/>Countermeasures Switch (CMS)</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">Press</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↑</span></th>
+                <td colspan="5">Start Program</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">↓</span></th>
+                <td colspan="5">End Program</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">←</span></th>
+                <td colspan="5">Previous Program</td>
+            </tr>
+            <tr>
+                <th class="press"><span class="arrow">→</span></th>
+                <td colspan="5">Next Program</td>
+            </tr>
+            <tr>
+                <th class="press">Z-Axis</th>
+                <td colspan="5">Toggle ECM</td>
+            </tr>
+        </table>
+        
+        <!-- NWS -->
+        <h2><a name="NWS"/>Nosewheel Steering Button (NWS)</h2>
+        <table class="hotas">
+            <tr>
+                <th class="mode">State</th>
+                <th class="mode">HUD</th>
+                <th class="mode">TAD</th>
+                <th class="mode">TGP</th>
+                <th class="mode">MAV</th>
+                <th class="mode">AIM-9</th>
+            </tr>
+            <tr>
+                <th class="press">On Ground</th>
+                <td colspan="5">Toggle Nose Wheel Steering</td>
+            </tr>
+            <tr>
+                <th class="press">In Air</th>
+                <td colspan="5">Lase<br/>AR Disconnect</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

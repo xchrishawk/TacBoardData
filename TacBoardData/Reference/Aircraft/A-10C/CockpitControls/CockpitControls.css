@@ -1,0 +1,43 @@
+/* Font sizes for small screens. */
+@media screen and (max-width: 450px) {
+    body { font-size: small; }
+    table.contents { font-size: small; }
+    table.hotas { font-size: x-small; }
+}
+
+/* Font sizes for large screens. */
+@media screen and (min-width: 451px) {
+    body { font-size: medium; }
+    table.contents { font-size: medium; }
+    table.hotas { font-size: small; }
+}
+
+/* Table of contents configuration. */
+table.contents { }
+table.contents td {
+    vertical-align: top;
+}
+table.contents li {
+    margin-bottom: 0.5em;
+}
+
+/* Main table configuration. */
+table.hotas {
+    border: 1px solid var(--separator-color);
+    border-collapse: collapse;
+    width: 100%;
+}
+table.hotas td, th {
+    border: 1px solid var(--separator-color);
+    height: 4em;
+    overflow: none;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    width: 16.67%;
+}
+table.hotas th.mode {
+    background: var(--separator-color);
+}
+table.hotas th.press {
+    background: var(--secondary-background-color);
+}

@@ -1,0 +1,676 @@
+{
+    "version": "0.1.0",
+    "description": "TacBoard Reference Documents",
+    "objects": [
+        {
+            "title": "General",
+            "folders": [
+                {
+                    "title": "General Airmanship",
+                    "items": [
+                        {
+                            "title": "NATO Phonetic Alphabet",
+                            "type": "html",
+                            "path": "Reference/General/GeneralAirmanship/NATOPhoneticAlphabet.html"
+                        }
+                    ]
+                },
+                {
+                    "title": "Military Procedures",
+                    "items": [
+                        {
+                            "title": "9-Line CAS Briefing Format",
+                            "type": "html",
+                            "credit": "Adapted from DoD Joint Publication 3-09.3",
+                            "path": "Reference/General/MilitaryProcedures/NineLineCASBriefingFormat.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "aircraftModule": "A-10C",
+            "folders": [
+                {
+                    "title": "Cockpit Controls",
+                    "items": [
+                        {
+                            "title": "Control Stick",
+                            "type": "html",
+                            "path": "Reference/Aircraft/A-10C/CockpitControls/ControlStick.html"
+                        },
+                        {
+                            "title": "Throttle",
+                            "type": "html",
+                            "path": "Reference/Aircraft/A-10C/CockpitControls/Throttle.html"
+                        },
+                    ]
+                },
+                {
+                    "title": "Performance",
+                    "subfolders": [
+                        {
+                            "title": "General",
+                            "items": [
+                                {
+                                    "title": "Airspeed Conversion",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/General/AirspeedConversion.html"
+                                },
+                                {
+                                    "title": "Ground Turn Radius",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/General/GroundTurnRadius.html"
+                                },
+                                {
+                                    "title": "Stall Speeds",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/General/StallSpeeds.html"
+                                },
+                                {
+                                    "title": "Drag Due To Weight Asymmetry",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/General/DragDueToWeightAsymmetry.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Takeoff",
+                            "items": [
+                                {
+                                    "title": "Takeoff / Abort Criteria",
+                                    "subtitle": "Definitions and Concepts",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/TakeoffAbortCriteria.html"
+                                },
+                                {
+                                    "title": "Rotation / Takeoff Airspeed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/RotationTakeoffSpeed.html"
+                                },
+                                {
+                                    "title": "Single Engine Rate of Climb",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/SingleEngineRateOfClimb.html"
+                                },
+                                {
+                                    "title": "Takeoff Index",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/TakeoffIndex.html"
+                                },
+                                {
+                                    "title": "Takeoff Ground Run",
+                                    "subtitle": "Flaps MVR",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/TakeoffGroundRun-FlapsMVR.html"
+                                },
+                                {
+                                    "title": "Takeoff Ground Run",
+                                    "subtitle": "Flaps Up",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/TakeoffGroundRun-FlapsUp.html"
+                                },
+                                {
+                                    "title": "50 Foot Obstacle Clearance Distance",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/50FootObstacleClearanceDistance.html"
+                                },
+                                {
+                                    "title": "RCR Without Anti-Skid",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/RCRWithoutAntiSkid.html"
+                                },
+                                {
+                                    "title": "Critical Field Length",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/CriticalFieldLength.html"
+                                },
+                                {
+                                    "title": "Refusal Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/RefusalSpeed.html"
+                                },
+                                {
+                                    "title": "Continuation Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/ContinuationSpeed.html"
+                                },
+                                {
+                                    "title": "Wheel Brake Energy Limit Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/WheelBrakeEnergyLimitSpeed.html"
+                                },
+                                {
+                                    "title": "Acceleration Check Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/AccelerationCheckSpeed.html"
+                                },
+                                {
+                                    "title": "Runway Wind Components",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/RunwayWindComponents.html"
+                                },
+                                {
+                                    "title": "Predicted Takeoff Fan Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Takeoff/PredictedTakeoffFanSpeed.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Climb",
+                            "subfolders": [
+                                {
+                                    "title": "Normal Climb",
+                                    "items": [
+                                        {
+                                            "title": "Speed Schedule / Fuel Used",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/Normal/FuelUsedSpeedSchedule.html"
+                                        },
+                                        {
+                                            "title": "Time / Distance Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/Normal/TimeDistance.html"
+                                        },
+                                        {
+                                            "title": "Combat Ceiling",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/Normal/CombatCeiling.html"
+                                        },
+                                        {
+                                            "title": "Cruise / Service Ceiling",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/Normal/CruiseServiceCeiling.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Single Engine Climb",
+                                    "items": [
+                                        {
+                                            "title": "Best Climb Speed",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/BestClimbSpeed.html"
+                                        },
+                                        {
+                                            "title": "Rate of Climb",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/RateOfClimb.html"
+                                        },
+                                        {
+                                            "title": "Speed Schedule / Fuel Used",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/FuelUsedSpeedSchedule.html"
+                                        },
+                                        {
+                                            "title": "Time / Distance Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/TimeDistance.html"
+                                        },
+                                        {
+                                            "title": "Cruise Ceiling",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/CruiseCeiling.html"
+                                        },
+                                        {
+                                            "title": "Service Ceiling",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Climb/SingleEngine/ServiceCeiling.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Range",
+                            "subfolders": [
+                                {
+                                    "title": "Normal Cruise",
+                                    "items": [
+                                        {
+                                            "title": "Short Range Optimum Cruise Altitude",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/ShortRangeOptimumCruiseAltitude.html"
+                                        },
+                                        {
+                                            "title": "Optimum Cruise Altitude",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/OptimumCruiseAltitude.html"
+                                        },
+                                        {
+                                            "title": "Long Range Cruise - Speed / Time",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/LongRangeCruiseSpeedTime.html"
+                                        },
+                                        {
+                                            "title": "Long Range Cruise - Fuel Usage",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/LongRangeCruiseFuelUsage.html"
+                                        },
+                                        {
+                                            "title": "Mach / Reference Number",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/CruiseMachReferenceNumber.html"
+                                        },
+                                        {
+                                            "title": "Specific Range",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/CruiseSpecificRange.html"
+                                        },
+                                        {
+                                            "title": "Fuel Flow",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/Normal/CruiseFuelFlow.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Single Engine Cruise",
+                                    "items": [
+                                        {
+                                            "title": "Optimum Cruise Altitude",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/OptimumCruiseAltitude.html"
+                                        },
+                                        {
+                                            "title": "Long Range Cruise - Speed / Time",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/LongRangeCruiseSpeedTime.html"
+                                        },
+                                        {
+                                            "title": "Long Range Cruise - Fuel Usage",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/LongRangeCruiseFuelUsage.html"
+                                        },
+                                        {
+                                            "title": "Mach / Reference Number",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/CruiseMachReferenceNumber.html"
+                                        },
+                                        {
+                                            "title": "Specific Range",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/CruiseSpecificRange.html"
+                                        },
+                                        {
+                                            "title": "Fuel Flow",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Range/SingleEngine/CruiseFuelFlow.html"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "title": "Diversion Range",
+                                    "subtitle": "Drag Index 0",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Range/DiversionRange-DragIndex0.html"
+                                },
+                                {
+                                    "title": "Diversion Range",
+                                    "subtitle": "Drag Index 2",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Range/DiversionRange-DragIndex2.html"
+                                },
+                                {
+                                    "title": "Diversion Range",
+                                    "subtitle": "Drag Index 4",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Range/DiversionRange-DragIndex4.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Endurance",
+                            "subfolders": [
+                                {
+                                    "title": "Normal Cruise",
+                                    "items": [
+                                        {
+                                            "title": "Fuel Flow / Optimum Altitude",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Endurance/Normal/MaximumEnduranceFuelFlowAltitude.html"
+                                        },
+                                        {
+                                            "title": "Speed / Fuel Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Endurance/Normal/MaximumEnduranceSpeedFuelRequired.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Single Engine Cruise",
+                                    "items": [
+                                        {
+                                            "title": "Fuel Flow / Optimum Altitude",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Endurance/SingleEngine/MaximumEnduranceFuelFlowAltitude.html"
+                                        },
+                                        {
+                                            "title": "Speed / Fuel Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Endurance/SingleEngine/MaximumEnduranceSpeedFuelRequired.html"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "title": "Equivalent Gross Weight",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Endurance/EquivalentGrossWeight.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Combat",
+                            "items": [
+                                {
+                                    "title": "Level Flight Maximum Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/LevelFlightMaximumSpeed.html"
+                                },
+                                {
+                                    "title": "Combat Fuel Flow",
+                                    "subtitle": "Standard Day",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/CombatFuelFlow-StandardDay.html"
+                                },
+                                {
+                                    "title": "Combat Fuel Flow",
+                                    "subtitle": "Standard Day -20°C",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/CombatFuelFlow-StandardDayMinus20.html"
+                                },
+                                {
+                                    "title": "Combat Fuel Flow",
+                                    "subtitle": "Standard Day +20°C",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/CombatFuelFlow-StandardDayPlus20.html"
+                                },
+                                {
+                                    "title": "Combat Fuel / Time Allowance",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/CombatFuelTimeAllowance.html"
+                                },
+                                {
+                                    "title": "Sustained Turn Performance",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/SustainedTurnPerformance.html"
+                                },
+                                {
+                                    "title": "Instantaneous Turn Performance",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/InstantaneousTurnPerformance.html"
+                                },
+                                {
+                                    "title": "Turn Radius / Rate",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/TurnRadiusRate.html"
+                                },
+                                {
+                                    "title": "Altitude Lost in Dive Recovery",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Combat/AltitudeLostInDiveRecovery.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Descent",
+                            "subfolders": [
+                                {
+                                    "title": "Maximum Range Descent",
+                                    "items": [
+                                        {
+                                            "title": "Fuel Used / Speed Schedule",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Descent/MaximumRangeDescent/FuelUsedSpeedSchedule.html"
+                                        },
+                                        {
+                                            "title": "Time Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Descent/MaximumRangeDescent/Time.html"
+                                        },
+                                        {
+                                            "title": "Distance Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Descent/MaximumRangeDescent/Distance.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Penetration Descent",
+                                    "items": [
+                                        {
+                                            "title": "Fuel Used",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Descent/PenetrationDescent/FuelUsed.html"
+                                        },
+                                        {
+                                            "title": "Time / Distance Required",
+                                            "type": "html",
+                                            "credit": "Adapted from USAF TO 1A-10A-1",
+                                            "path": "Reference/Aircraft/A-10C/Performance/Descent/PenetrationDescent/TimeDistance.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Landing",
+                            "items": [
+                                {
+                                    "title": "Final Approach Speed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Landing/FinalApproachSpeed.html"
+                                },
+                                {
+                                    "title": "Landing Index / Air Distance",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Landing/LandingIndexAirDistance.html"
+                                },
+                                {
+                                    "title": "Ground Roll Distance",
+                                    "subtitle": "Flaps Down, Speed Brakes Open",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Landing/GroundRollDistance-FlapsDownSpeedBrakesOpen.html"
+                                },
+                                {
+                                    "title": "Ground Roll Distance",
+                                    "subtitle": "Flaps Down, Speed Brakes Closed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Landing/GroundRollDistance-FlapsDownSpeedBrakesClosed.html"
+                                },
+                                {
+                                    "title": "Ground Roll Distance",
+                                    "subtitle": "Flaps Up, Speed Brakes Closed",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Performance/Landing/GroundRollDistance-FlapsUpSpeedBrakesClosed.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Procedures",
+                    "subfolders": [
+                        {
+                            "title": "Approach Patterns",
+                            "items": [
+                                {
+                                    "title": "GCA / Radar Approach",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Procedures/ApproachPatterns/RadarApproach.html"
+                                },
+                                {
+                                    "title": "TACAN Approach",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Procedures/ApproachPatterns/TACANApproach.html"
+                                },
+                                {
+                                    "title": "ILS Approach",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Procedures/ApproachPatterns/ILSApproach.html"
+                                },
+                                {
+                                    "title": "Overhead Landing Pattern",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Procedures/ApproachPatterns/OverheadLandingPattern.html"
+                                },
+                                {
+                                    "title": "Flameout Landing Pattern",
+                                    "type": "html",
+                                    "credit": "Adapted from USAF TO 1A-10A-1",
+                                    "path": "Reference/Aircraft/A-10C/Procedures/ApproachPatterns/FlameoutLandingPattern.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Stores",
+                    "subfolders": [
+                        {
+                            "title": "Weapon Info",
+                            "items": [
+                                {
+                                    "title": "Air-to-Air Missiles",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Stores/WeaponInfo/AirToAirMissiles.html"
+                                },
+                                {
+                                    "title": "Air-to-Ground Missiles",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Stores/WeaponInfo/AirToGroundMissiles.html"
+                                },
+                                {
+                                    "title": "Bombs",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Stores/WeaponInfo/Bombs.html"
+                                },
+                                {
+                                    "title": "Pods",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Stores/WeaponInfo/Pods.html"
+                                },
+                                {
+                                    "title": "Rockets",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Stores/WeaponInfo/Rockets.html"
+                                }
+                            ]
+                        }
+                    ],
+                    "items": [
+                        {
+                            "title": "Station Compatibility",
+                            "type": "html",
+                            "path": "Reference/Aircraft/A-10C/Stores/StationCompatibility.html"
+                        },
+                        {
+                            "title": "Weight / Drag Indices",
+                            "type": "html",
+                            "path": "Reference/Aircraft/A-10C/Stores/WeightDrag.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "terrainModule": "Caucasus",
+            "folders": [
+                {
+                    "title": "Navigation Supplements",
+                    "items": [
+                        {
+                            "title": "General Map",
+                            "type": "html",
+                            "credit": "Created by and copyright Virual JaBoG 32",
+                            "path": "Reference/Terrain/Caucasus/GeneralMap.html"
+                        },
+                        {
+                            "title": "Aerodrome Chart Legend",
+                            "type": "html",
+                            "credit": "Created by and copyright Virtual JaBoG 32",
+                            "path": "Reference/Terrain/Caucasus/AerodromeChartLegend.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

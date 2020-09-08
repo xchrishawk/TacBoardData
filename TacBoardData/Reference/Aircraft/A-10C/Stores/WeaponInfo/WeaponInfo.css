@@ -1,0 +1,56 @@
+/* Small screens */
+@media screen and (max-width: 450px) {
+    body { font-size: small; }
+    table.weapons { font-size: small; }
+}
+
+/* Normal screens */
+@media screen and (min-width: 451px) {
+    body { font-size: medium; }
+    table.weapons { font-size: medium; }
+}
+
+table.toc { }
+
+table.toc td {
+    vertical-align: top;
+}
+
+ul.toc li {
+    margin-bottom: 0.5em;
+}
+
+table.weapons {
+    border: 1px solid var(--separator-color);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.title, th.data, th.notes, td.data, td.notes {
+    border: 1px solid var(--separator-color);
+    padding: 10px 10px 10px 10px;
+}
+
+th.title {
+    background: var(--separator-color);
+}
+
+th.data, th.notes {
+    background: var(--secondary-background-color);
+    width: 120px;
+}
+
+td.data, td.notes { }
+
+ul.notes {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul.notes li {
+    margin-bottom: 0.5em;
+}
+
+ul.notes li:last-of-type {
+    margin-bottom: 0;
+}
