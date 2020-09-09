@@ -32,21 +32,6 @@
             "aircraftModule": "A-10C",
             "folders": [
                 {
-                    "title": "Cockpit Controls",
-                    "items": [
-                        {
-                            "title": "Control Stick",
-                            "type": "html",
-                            "path": "Reference/Aircraft/A-10C/CockpitControls/ControlStick.html"
-                        },
-                        {
-                            "title": "Throttle",
-                            "type": "html",
-                            "path": "Reference/Aircraft/A-10C/CockpitControls/Throttle.html"
-                        },
-                    ]
-                },
-                {
                     "title": "Performance",
                     "subfolders": [
                         {
@@ -645,6 +630,41 @@
                             "title": "Weight / Drag Indices",
                             "type": "html",
                             "path": "Reference/Aircraft/A-10C/Stores/WeightDrag.html"
+                        }
+                    ]
+                },
+                {
+                    "title": "Systems",
+                    "subfolders": [
+                        {
+                            "title": "Defensive",
+                            "items": [
+                                {
+                                    "title": "CMSP Programs",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Systems/Defensive/CMSPPrograms.html"
+                                },
+                                {
+                                    "title": "RWR Symbols",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Systems/Defensive/RWRSymbols.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HOTAS",
+                            "items": [
+                                {
+                                    "title": "Control Stick",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Systems/HOTAS/ControlStick.html"
+                                },
+                                {
+                                    "title": "Throttle",
+                                    "type": "html",
+                                    "path": "Reference/Aircraft/A-10C/Systems/HOTAS/Throttle.html"
+                                }
+                            ]
                         }
                     ]
                 }

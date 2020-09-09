@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <link href="../../../../Reference.css" rel="stylesheet"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            @media screen and (max-width: 450px) {
+                body { font-size: small; }
+                table.standard { font-size: small; }
+            }
+            table.standard { width: 100%; }
+            table.standard td { text-align: center; }
+            table.standard td.program { font-weight: bold; }
+            li { margin-bottom: 0.5em; }
+        </style>
+    </head>
+    <body>
+    <h2>CMSP Programs</h2>
+    <h3>Operation Modes</h3>
+    <ul>
+        <li><b>MAN</b>: Pilot selects program and must manually start and stop dispensing countermeasures.</li>
+        <li><b>SEMI</b>: CMSP chooses the best program for the detected threads. Pilot must manually start and stop dispensing.</li>
+        <li><b>AUTO</b>: CMSP chooses the best program and automatically starts and stops dispensing.</li>
+    </ul>
+    <h3>Default Programs</h3>
+    <table class="standard">
+        <tr>
+            <th width="20%">Program</th>
+            <th width="20%">Chaff Qty</th>
+            <th width="20%">Flare Qty</th>
+            <th width="20%">Interval (Sec)</th>
+            <th width="20%">Cycle</th>
+        </tr>
+        <tr>
+            <td class="program">A</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">B</td>
+            <td>4</td>
+            <td>0</td>
+            <td>0.5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">C</td>
+            <td>0</td>
+            <td>4</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">D</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">E</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0.5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">F</td>
+            <td>4</td>
+            <td>4</td>
+            <td>1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">G</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0.5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td class="program">H</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="program">I</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="program">J</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="program">K</td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class="program">L</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td class="program">M</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <h3>Suggested Programs</h3>
+    <table class="standard">
+        <tr>
+            <th width="20%">Program</th>
+            <th width="20%">Release Speed</th>
+            <th width="20%">Threat Type</th>
+            <th width="40%">Usage</th>
+        </tr>
+        <tr>
+            <td class="program">E</td>
+            <td>Fast</td>
+            <td>Radar / IR</td>
+            <td>Fast release of flares and chaff to defend against incoming missile of unknown type.</td>
+        </tr>
+        <tr>
+            <td class="program">F</td>
+            <td>Slow</td>
+            <td>Radar / IR</td>
+            <td>Slow preventative/precautionary release of flares and chaff.</td>
+        </tr>
+        <tr>
+            <td class="program">B</td>
+            <td>Fast</td>
+            <td>Radar</td>
+            <td>Fast release of chaff to defend against incoming radar-guided missile.</td>
+        </tr>
+        <tr>
+            <td class="program">L</td>
+            <td>Slow</td>
+            <td>Radar</td>
+            <td>Slow preventative/precautionary release of chaff.</td>
+        </tr>
+        <tr>
+            <td class="program">Enter Manually</td>
+            <td>Fast</td>
+            <td>IR</td>
+            <td>Fast release of flares to defend against incoming IR-guided missile.</td>
+        </tr>
+        <tr>
+            <td class="program">M</td>
+            <td>Slow</td>
+            <td>IR</td>
+            <td>Slow preventative/precautionary release of flares.</td>
+        </tr>
+    </table>
+</html>
