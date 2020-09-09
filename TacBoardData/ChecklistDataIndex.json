@@ -539,7 +539,7 @@
                                             "subtext": "Fuel System Control Panel",
                                             "action": "Both ON"
                                         },
-
+                                        
                                         {
                                             "text": "L / R ENG OPER",
                                             "subtext": "Throttle Quadrant",
@@ -619,7 +619,7 @@
                                         },
                                         {
                                             "text": "Flight Controls",
-                                            "subtext": "Control Stick / Rudder Pedals",
+                                            "subtext": "Control Stick - Rudder Pedals",
                                             "action": "Check"
                                         },
                                         {
@@ -1587,7 +1587,367 @@
                 },
                 {
                     "title": "Combat Employment",
-                    "items": []
+                    "items": [
+                        {
+                            "title": "GAU-8 Cannon",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "GUN / PAC",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM",
+                                            "comment": "Set to GUNARM if PAC not desired."
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "GUNS"
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to HUD"
+                                        },
+                                        {
+                                            "text": "Gunsight",
+                                            "subtext": "Control Stick - DMS",
+                                            "action": "Select",
+                                            "comment": "Cycle gunsights by pressing DMS left / right."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Pull trigger to fire cannon. Trigger actions are as follows:\n\n    • First stage activates PAC\n\n    • Second stage fires cannon",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Rockets",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "As Desired",
+                                            "comment": "Set to CCIP or CCRP as desired."
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to HUD"
+                                        },
+                                        {
+                                            "text": "Weapon Profile",
+                                            "subtext": "Control Stick - DMS",
+                                            "action": "Select",
+                                            "comment": "Cycle weapon profiles by pressing DMS left / right."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CCIP Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button until all rockets in ripple have fired.",
+                                            "small": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CCRP Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Rockets will fire when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all rockets in ripple have fired.",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Unguided Bombs",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "IFFCC",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "TEST"
+                                        },
+                                        {
+                                            "text": "CCIP CONSENT OPT",
+                                            "subtext": "IFFCC Test Menu",
+                                            "action": "As Desired",
+                                            "comment": "Set to 3/9, 5MIL, or OFF as desired."
+                                        },
+                                        {
+                                            "text": "IFFCC",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ON"
+                                        },
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "As Desired",
+                                            "comment": "Set to CCIP or CCRP as desired."
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to HUD"
+                                        },
+                                        {
+                                            "text": "Weapon Profile",
+                                            "subtext": "Control Stick - DMS",
+                                            "action": "Select",
+                                            "comment": "Cycle weapon profiles by pressing DMS left / right."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CCIP Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button until all bombs in ripple have released.",
+                                            "small": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CCRP Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
+                                            "small": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CCIP / CR Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button, then pitch back to return to level flight.\n\n• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Laser-Guided Bombs",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "TGP",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ON"
+                                        },
+                                        {
+                                            "text": "LASER",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "TGP Mode",
+                                            "subtext": "MFCD - TGP Page",
+                                            "action": "A-G"
+                                        },
+                                        {
+                                            "text": "TGP Laser Code",
+                                            "subtext": "MFCD - TGP Page",
+                                            "action": "Set",
+                                            "comment": "Ensure TGP laser code matches LGB seeker code as shown in DSMS."
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action": "Set to TGP"
+                                        },
+                                        {
+                                            "text": "TGP Reticle",
+                                            "subtext": "Throttle - Slew Control",
+                                            "action": "Slew to Target"
+                                        },
+                                        {
+                                            "text": "SPI",
+                                            "subtext": "Control Stick - TMS",
+                                            "action": "Designate TGP",
+                                            "comment": "Press TMS forward long to designate TGP as SPI."
+                                        },
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "Set to CCRP"
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to HUD"
+                                        },
+                                        {
+                                            "text": "Weapon Profile",
+                                            "subtext": "Control Stick - DMS",
+                                            "action": "Select",
+                                            "comment": "Cycle weapon profiles by pressing DMS left / right."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Pre-Release",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
+                                            "small": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Post-Release",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Ensure that TGP has a clear line of sight to the target until bomb impact.\n\n• If AUTO LASE option is not set, press NWS button on control stick to lase target.\n\n• For best results, delay lasing until approximately 8 seconds before projected impact.",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Inertially-Aided Munitions",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "SPI",
+                                            "subtext": "Control Stick - TMS",
+                                            "action": "Designate",
+                                            "comment": "Press TMS forward long to designate SPI. IAMs can target any type of SPI, including steerpoint, TDC, TGP, TAD, Maverick, etc."
+                                        },
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "Set to CCRP"
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to HUD"
+                                        },
+                                        {
+                                            "text": "Weapon Profile",
+                                            "subtext": "Control Stick - DMS",
+                                            "action": "Select",
+                                            "comment": "Cycle weapon profiles by pressing DMS left / right."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• Release cue will move counter-clockwise around pipper as aircraft approaches the designated target.\n\n• When release cue is between the minimum/maximum range carets, press and hold Weapon Release Button.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mavericks",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "text": "EO Power",
+                                            "subtext": "MFCD - MAV Page",
+                                            "action": "ON",
+                                            "comment": "Mavericks require 3 minute alignment before use, starting when EO power is turned on."
+                                        },
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "ARM"
+                                        },
+                                        {
+                                            "text": "Master Mode",
+                                            "subtext": "Control Stick - MMCB",
+                                            "action": "Set to CCIP"
+                                        },
+                                        {
+                                            "text": "SOI",
+                                            "subtext": "Throttle - Coolie Hat",
+                                            "action" : "Set to MAV"
+                                        },
+                                        {
+                                            "text": "Maverick Target",
+                                            "subtext": "Throttle - Slew Control",
+                                            "action": "Designate",
+                                            "comment": "Pressing TMS forward short will command the MAV to attempt to lock on at the current reticle position."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Usage",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "• It is normally easiest to designate an SPI using the TGP, TDC, or TAD, and then slave the Maverick seeker to the SPI by pressing China Hat Forward Long.\n\n• Range caret will begin descending DLZ scale on MAV MFCD page at approximately 10 NM slant range.\n\n• Maverick will normally lock on to target at a range of 3 - 7 NM.\n\n• Once the seeker has locked the target, press and hold the Weapon Release Button until the Maverick has fully launched.",
+                                            "small": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
