@@ -12,6 +12,14 @@
                             "title": "Pre-Startup",
                             "sections": [
                                 {
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "[small][b]NOTE[/b]: When selecting ramp startup in DCS, aircraft is already pre-configured according to this checklist. It is provided here for reference only.[/small]"
+                                        }
+                                    ]
+                                },
+                                {
                                     "title": "Radios",
                                     "items": [
                                         {
@@ -539,7 +547,7 @@
                                             "subtext": "Fuel System Control Panel",
                                             "action": "Both ON"
                                         },
-                                        
+
                                         {
                                             "text": "L / R ENG OPER",
                                             "subtext": "Throttle Quadrant",
@@ -819,7 +827,7 @@
                             ]
                         },
                         {
-                            "title": "Pre-Taxi / Taxi",
+                            "title": "Pre-Taxi",
                             "sections": [
                                 {
                                     "title": "Pre-Taxi",
@@ -878,25 +886,21 @@
                                     ]
                                 },
                                 {
-                                    "title": "Taxi",
+                                    "title": "Notes",
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "Taxi speed between 15 KTS and 25 KTS. Use rudder pedals to steer aircraft on ground."
-                                        },
-                                        {
-                                            "type": "Comment",
-                                            "text": "To stop, set throttles to IDLE and apply toe brakes."
+                                            "text": "[small][li]Taxi speed between 15 KTS and 25 KTS.[/li][li]Use rudder pedals to steer aircraft on ground.[/li][li]To stop, set throttles to IDLE and apply toe brakes.[/li][/small]"
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            "title": "Before Takeoff",
+                            "title": "Pre-Takeoff",
                             "sections": [
                                 {
-                                    "title": "Before Takeoff",
+                                    "title": "Pre-Takeoff",
                                     "items": [
                                         {
                                             "text": "Anti-Skid",
@@ -1012,10 +1016,15 @@
                                             "subtext": "Control Stick",
                                             "action": "Deactivate",
                                             "comment": "Deactivate NWS when airspeed passes 70 KTS."
-                                        },
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Notes",
+                                    "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "Rotate to 10° pitch approximately 10 KTS before takeoff speed. Takeoff speed is approximately 135 KTS with combat load."
+                                            "text": "[small][li]Rotate to 10° pitch approximately 10 KTS before takeoff speed.[/li][li]Takeoff speed is approximately 135 KTS with combat load.[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1025,12 +1034,16 @@
                             "title": "Fence In",
                             "sections": [
                                 {
-                                    "title": "Fence In",
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "Complete fence in checklist prior to entering combat area."
-                                        },
+                                            "text": "[small][b]NOTE[/b]: Complete fence in checklist prior to entering combat area.[/small]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Fence In",
+                                    "items": [
                                         {
                                             "text": "Exterior Lights Master",
                                             "subtext": "Throttle",
@@ -1339,7 +1352,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "Engines must be set to IDLE for 5 minutes before proceeding.",
+                                            "text": "[b]NOTE[/b]: Engines must be set to IDLE for 5 minutes before proceeding.",
                                             "comment": "Taxi time may be included if core RPM was < 80%."
                                         },
                                         {
@@ -1485,6 +1498,43 @@
                     "title": "Emergency Procedures",
                     "items": [
                         {
+                            "title": "Ejection",
+                            "sections": [
+                                {
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "[small][b]NOTE[/b]: If possible, eject above:[li]2000 FT AGL in level flight[/li][li]4000 FT AGL in uncontrolled flight[/li][/small]"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Ejection",
+                                    "items": [
+                                        {
+                                            "text": "IFF Master Dial",
+                                            "subtext": "IFF Control Panel",
+                                            "action": "EMER"
+                                        },
+                                        {
+                                            "text": "UHF Guard Channel",
+                                            "subtext": "UHF Radio",
+                                            "action": "Transmit Mayday"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Turn aircraft towards uninhabited area. Trim to lowest practical speed. Hold wings level."
+                                        },
+                                        {
+                                            "text": "Ejection Handle",
+                                            "subtext": "Seat",
+                                            "action": "Pull"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "title": "APU Fire",
                             "sections": [
                                 {
@@ -1511,40 +1561,7 @@
                                         },
                                         {
                                             "type": "Comment",
-                                            "text": "If both presses of discharge switch fail to extinguish fire, land as soon as possible."
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Ejection",
-                            "sections": [
-                                {
-                                    "title": "Ejection",
-                                    "items": [
-                                        {
-                                            "type": "Comment",
-                                            "text": "If possible, eject above:\n• 2000 FT AGL in level flight\n• 4000 FT AGL in uncontrolled flight"
-                                        },
-                                        {
-                                            "text": "IFF Master Dial",
-                                            "subtext": "IFF Control Panel",
-                                            "action": "EMER"
-                                        },
-                                        {
-                                            "text": "UHF Guard Channel",
-                                            "subtext": "UHF Radio",
-                                            "action": "Transmit Mayday"
-                                        },
-                                        {
-                                            "type": "Comment",
-                                            "text": "Turn aircraft towards uninhabited area. Trim to lowest practical speed. Hold wings level."
-                                        },
-                                        {
-                                            "text": "Ejection Handle",
-                                            "subtext": "Seat",
-                                            "action": "Pull"
+                                            "text": "[b]NOTE[/b]: If both presses of discharge switch fail to extinguish fire, land as soon as possible."
                                         }
                                     ]
                                 }
@@ -1557,8 +1574,13 @@
                                     "title": "Engine Fire",
                                     "items": [
                                         {
+                                            "text": "Throttle",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "IDLE"
+                                        },
+                                        {
                                             "type": "Comment",
-                                            "text": "Reduce power to affected engine. If engine fire T-handle light does not extinguish:"
+                                            "text": "If engine fire T-handle light does not extinguish:"
                                         },
                                         {
                                             "text": "Throttle",
@@ -1577,7 +1599,72 @@
                                         },
                                         {
                                             "type": "Comment",
-                                            "text": "If both presses of discharge switch fail to extinguish fire, land as soon as possible."
+                                            "text": "[b]NOTE[/b]: If both presses of discharge switch fail to extinguish fire, land as soon as possible."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "In-Air Engine Restart",
+                            "subtitle": "Restart with APU",
+                            "sections": [
+                                {
+                                    "title": "In-Air Engine Restart",
+                                    "items": [
+                                        {
+                                            "text": "Inoperative Throttle",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "OFF",
+                                            "comment": "Set throttle of affected engine to OFF. Engine ITT should cool rapidly."
+                                        },
+                                        {
+                                            "text": "Altitude",
+                                            "action": "Descend",
+                                            "comment": "Descent to below 15000 FT prior to proceeding."
+                                        },
+                                        {
+                                            "text": "APU",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "START"
+                                        },
+                                        {
+                                            "text": "Operating Throttle",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "MAX"
+                                        },
+                                        {
+                                            "text": "Inoperative ENG OPER",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "MOTOR",
+                                            "comment": "Wait until inoperative engine ITT is below 100°C."
+                                        },
+                                        {
+                                            "text": "Inoperative Throttle",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "IDLE",
+                                            "comment": "Move throttle out of OFF detent."
+                                        },
+                                        {
+                                            "text": "Inoperative ENG OPER",
+                                            "subtext": "Throttle Quadrant",
+                                            "action": "NORM"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Inoperative Engine Gauges",
+                                            "subtext": "Front Dash",
+                                            "action": "Monitor",
+                                            "comment": "Monitor engine gauges and ensure restart proceeds as expected."
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "If engine restart is successful:"
+                                        },
+                                        {
+                                            "text": "Yaw / Pitch SAS",
+                                            "subtext": "SAS Panel",
+                                            "action": "All ENGAGE"
                                         }
                                     ]
                                 }
@@ -1628,8 +1715,11 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Pull trigger to fire cannon. Trigger actions are as follows:\n\n    • First stage activates PAC\n\n    • Second stage fires cannon",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to place pipper on target.[/li][li]Pull trigger to fire cannon.[/li][/small]"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "[small]Trigger actions are as follows:[li][b]First Stage[/b]: Activate PAC[/li][li][b]Second Stage[/b]: Fire Cannon[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1670,8 +1760,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button until all rockets in ripple have fired.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to place pipper on target.[/li][li]Press and hold Weapon Release Button until all rockets in ripple have fired.[/li][/small]"
                                         }
                                     ]
                                 },
@@ -1680,8 +1769,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Rockets will fire when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all rockets in ripple have fired.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to align pipper over ASL on the HUD.[/li][li]As solution cue drops down ASL, press and hold Weapon Release Button.[/li][li]Rockets will fire when solution cue passes through pipper.[/li][li]Do not release Weapon Release Button until all rockets in ripple have fired.[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1738,8 +1826,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button until all bombs in ripple have released.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to place pipper on target.[/li][li]Press and hold Weapon Release Button until all bombs in ripple have released.[/li][/small]"
                                         }
                                     ]
                                 },
@@ -1748,8 +1835,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to align pipper over ASL on the HUD.[/li][li]As solution cue drops down ASL, press and hold Weapon Release Button.[/li][li]Bombs will release when solution cue passes through pipper.[/li][li]Do not release Weapon Release Button until all bombs in ripple have released.[/li][/small]"
                                         }
                                     ]
                                 },
@@ -1758,8 +1844,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to place pipper on target.\n\n• Press and hold Weapon Release Button, then pitch back to return to level flight.\n\n• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to place pipper on target.[/li][li]Press and hold Weapon Release Button, then pitch back to return to level flight.[/li][li]Maneuver aircraft to align pipper over ASL on the HUD.[/li][li]Bombs will release when solution cue passes through pipper.[/li][li]Do not release Weapon Release Button until all bombs in ripple have released.[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1836,8 +1921,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• As solution cue drops down ASL, press and hold Weapon Release Button.\n\n• Bombs will release when solution cue passes through pipper.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to align pipper over ASL on the HUD.[/li][li]As solution cue drops down ASL, press and hold Weapon Release Button.[/li][li]Bombs will release when solution cue passes through pipper.[/li][li]Do not release Weapon Release Button until all bombs in ripple have released.[/li][/small]"
                                         }
                                     ]
                                 },
@@ -1846,8 +1930,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Ensure that TGP has a clear line of sight to the target until bomb impact.\n\n• If AUTO LASE option is not set, press NWS button on control stick to lase target.\n\n• For best results, delay lasing until approximately 8 seconds before projected impact.",
-                                            "small": true
+                                            "text": "[small][li]Ensure that TGP has a clear line of sight to the target until bomb impact.[/li][li]If AUTO LASE option is not set, press NWS button on control stick to lase target.[/li][li]For best results, delay lasing until approximately 8 seconds before projected impact.[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1893,8 +1976,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• Maneuver aircraft to align pipper over ASL on the HUD.\n\n• Release cue will move counter-clockwise around pipper as aircraft approaches the designated target.\n\n• When release cue is between the minimum/maximum range carets, press and hold Weapon Release Button.\n\n• Do not release Weapon Release Button until all bombs in ripple have released.",
-                                            "small": true
+                                            "text": "[small][li]Maneuver aircraft to align pipper over ASL on the HUD.[/li][li]Release cue will move counter-clockwise around pipper as aircraft approaches the designated target.[/li][li]When release cue is between the minimum/maximum range carets, press and hold Weapon Release Button.[/li][li]Do not release Weapon Release Button until all bombs in ripple have released.[/li][/small]"
                                         }
                                     ]
                                 }
@@ -1940,8 +2022,7 @@
                                     "items": [
                                         {
                                             "type": "Comment",
-                                            "text": "• It is normally easiest to designate an SPI using the TGP, TDC, or TAD, and then slave the Maverick seeker to the SPI by pressing China Hat Forward Long.\n\n• Range caret will begin descending DLZ scale on MAV MFCD page at approximately 10 NM slant range.\n\n• Maverick will normally lock on to target at a range of 3 - 7 NM.\n\n• Once the seeker has locked the target, press and hold the Weapon Release Button until the Maverick has fully launched.",
-                                            "small": true
+                                            "text": "[small][li]It is normally easiest to designate an SPI using the TGP, TDC, or TAD, and then slave the Maverick seeker to the SPI by pressing China Hat Forward Long.[/li][li]Range caret will begin descending DLZ scale on MAV MFCD page at approximately 10 NM slant range.[/li][li]Maverick will normally lock on to target at a range of 3 - 7 NM.[/li][li]Once the seeker has locked the target, press and hold the Weapon Release Button until the Maverick has fully launched.[/li][/small]"
                                         }
                                     ]
                                 }
