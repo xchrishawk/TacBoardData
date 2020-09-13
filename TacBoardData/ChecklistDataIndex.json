@@ -2310,6 +2310,65 @@
                     "title": "Combat Employment",
                     "items": [
                         {
+                            "title": "CMSP Programming",
+                            "sections": [
+                                {
+                                    "title": "CMSP Programming",
+                                    "items": [
+                                        {
+                                            "text": "CMSP MODE Dial",
+                                            "subtext": "CMSP Panel",
+                                            "action": "STBY"
+                                        },
+                                        {
+                                            "text": "NXT Rocker",
+                                            "subtext": "CMSP Panel",
+                                            "action": "Select Program",
+                                            "comment": "Select the program to be edited using the NXT rocker on the CMSP panel."
+                                        },
+                                        {
+                                            "text": "DISP",
+                                            "subtext": "CMSP Panel",
+                                            "action": "MENU"
+                                        },
+                                        {
+                                            "text": "SET Button",
+                                            "subtext": "CMSP Panel",
+                                            "action": "Press",
+                                            "comment": "Press the SET button for the value to be edited."
+                                        },
+                                        {
+                                            "text": "NXT Rocker",
+                                            "subtext": "CMSP Panel",
+                                            "action": "Edit Value",
+                                            "comment": "Use the NXT rocker to adjust the selected value up or down."
+                                        },
+                                        {
+                                            "text": "RTN",
+                                            "subtext": "CMSP Panel",
+                                            "action": "Press",
+                                            "comment": "When all values have been set, press the RTN button to save the program."
+                                        },
+                                        {
+                                            "text": "RTN",
+                                            "subtext": "CMSP Panel",
+                                            "action": "Press",
+                                            "comment": "Pressing RTN a second time returns to the DISP status page."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "CMSP Settings",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "[small]CMSP settings are as follows:[li][b]CHAF[/b]: Number of chaff bundles to release per cycle[/li][li][b]FLAR[/b]: Number of flares to release per cycle[/li][li][b]INTV[/b]: Time between release cycles, in seconds[/li][li][b]CYCL[/b]: Number of cycles in program[/li][/small]"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "title": "GAU-8 Cannon",
                             "sections": [
                                 {
