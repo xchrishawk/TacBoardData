@@ -1620,7 +1620,7 @@
                                             "items": [
                                                 {
                                                     "type": "Comment",
-                                                    "text": "[small][b]NOTE[/b]: Aileron and elevator jams are indicated by the [b]AIL L / R[/b] and [b]ELEV L / R[/b] warning lights, respectively.[/small]"
+                                                    "text": "[small][b]NOTE[/b]: Aileron and elevator jams are indicated by the [b]AIL L / R[/b] and [b]ELEV L / R[/b] caution lights, respectively.[/small]"
                                                 }
                                             ]
                                         },
@@ -1631,7 +1631,7 @@
                                                     "text": "EMER DISENGAGE",
                                                     "subtext": "Emergency Flight Control Panel",
                                                     "action": "Activate",
-                                                    "comment": "Move the appropriate emergency disengage switch in the direction indicated by the jam warning light."
+                                                    "comment": "Move the appropriate emergency disengage switch in the direction indicated by the jam indicator light."
                                                 }
                                             ]
                                         }
@@ -1802,7 +1802,7 @@
                                             "items": [
                                                 {
                                                     "type": "Comment",
-                                                    "text": "[small][b]NOTE[/b]: These instructions apply to engine oil over-pressure and under-pressure failures. Such failures are indicated by the [b]ENG OIL PRESS L / R[/b] warning lights.[/small]"
+                                                    "text": "[small][b]NOTE[/b]: These instructions apply to engine oil over-pressure and under-pressure failures. Such failures are indicated by the [b]ENG OIL PRESS L / R[/b] caution lights.[/small]"
                                                 }
                                             ]
                                         },
@@ -1844,7 +1844,7 @@
                                             "items": [
                                                 {
                                                     "type": "Comment",
-                                                    "text": "[small][b]NOTE[/b]: Main fuel boost pump failures are indicated by the [b]MAIN PUMP L / R[/b] warning lights.[/small]"
+                                                    "text": "[small][b]NOTE[/b]: Main fuel boost pump failures are indicated by the [b]MAIN PUMP L / R[/b] caution lights.[/small]"
                                                 },
                                                 {
                                                     "type": "Comment",
@@ -1880,7 +1880,7 @@
                                             "items": [
                                                 {
                                                     "type": "Comment",
-                                                    "text": "[small][b]NOTE[/b]: Wing fuel boost pump failures are indicated by the [b]WING PUMP L / R[/b] warning lights.[/small]"
+                                                    "text": "[small][b]NOTE[/b]: Wing fuel boost pump failures are indicated by the [b]WING PUMP L / R[/b] caution lights.[/small]"
                                                 },
                                                 {
                                                     "type": "Comment",
@@ -1916,7 +1916,7 @@
                                             "items": [
                                                 {
                                                     "type": "Comment",
-                                                    "text": "[small][b]NOTE[/b]: Fuel pressure faults are indicated by the [b]FUEL PRESS L / R[/b] warning lights.[/small]"
+                                                    "text": "[small][b]NOTE[/b]: Fuel pressure faults are indicated by the [b]FUEL PRESS L / R[/b] caution lights.[/small]"
                                                 }
                                             ]
                                         },
@@ -1930,7 +1930,7 @@
                                                 },
                                                 {
                                                     "type": "Comment",
-                                                    "text": "If warning light does not extinguish:"
+                                                    "text": "If caution light does not extinguish:"
                                                 },
                                                 {
                                                     "text": "CROSS FEED",

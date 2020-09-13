@@ -666,6 +666,13 @@
                                 }
                             ]
                         }
+                    ],
+                    "items": [
+                        {
+                            "title": "Caution Lights",
+                            "type": "html",
+                            "path": "Reference/Aircraft/A-10C/Systems/CautionLights.html"
+                        }
                     ]
                 }
             ]

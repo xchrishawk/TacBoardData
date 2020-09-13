@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <link href="../../../Reference.css" rel="stylesheet"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            @media screen and (max-width: 450px) {
+                body { font-size: small; }
+                table.standard { font-size: small; }
+            }
+            table.standard { width: 100%; }
+            table.standard td.caution {
+                font-weight: bold;
+                text-align: center;
+                width: 185px;
+            }
+            table.toc td { vertical-align: top; }
+            li { margin-bottom: 0.5em; }
+            li:last-of-type { margin-bottom: 0px; }
+        </style>
+    </head>
+    <body>
+        <h2>Caution Lights</h2>
+        <table class="toc">
+            <tr>
+                <td>
+                    <ul>
+                        <li><a href="#AIL">L / R AIL</a></li>
+                        <li><a href="#AILDISENG">AIL DISENG</a></li>
+                        <li><a href="#AILTAB">L / R AIL TAB</a></li>
+                        <li><a href="#ANTISKID">ANTI-SKID</a></li>
+                        <li><a href="#APUGEN">APU GEN</a></li>
+                        <li><a href="#BLEEDAIRLEAK">BLEED AIR LEAK</a></li>
+                        <li><a href="#CADC">CADC</a></li>
+                        <li><a href="#CICU">CICU</a></li>
+                        <li><a href="#CONV">L / R CONV</a></li>
+                        <li><a href="#EAC">EAC</a></li>
+                        <li><a href="#ELEV">L / R ELEV</a></li>
+                        <li><a href="#ELEVDISENG">ELEV DISENG</a></li>
+                        <li><a href="#ENGHOT">L / R ENG HOT</a></li>
+                        <li><a href="#ENGOILPRESS">L / R ENG OIL PRESS</a></li>
+                        <li><a href="#ENGSTARTCYCLE">ENG START CYCLE</a></li>
+                        <li><a href="#FUELPRESS">L / R FUEL PRESS</a></li>
+                        <li><a href="#GCAS">GCAS</a></li>
+                        <li><a href="#GEN">L / R GEN</a></li>
+                        <li><a href="#GUNUNSAFE">GUN UNSAFE</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="#HARS">HARS</a></li>
+                        <li><a href="#HYDPRESS">L / R HYD PRESS</a></li>
+                        <li><a href="#HYDRES">L / R HYD RES</a></li>
+                        <li><a href="#IFFMODE4">IFF MODE-4</a></li>
+                        <li><a href="#INSTINV">INST INV</a></li>
+                        <li><a href="#LRTKSUNEQUAL">L-R TKS UNEQUAL</a></li>
+                        <li><a href="#LASTE">LASTE</a></li>
+                        <li><a href="#MAINFLOWLOW">L / R MAIN FLOW LOW</a></li>
+                        <li><a href="#MAINPUMP">L / R MAIN PUMP</a></li>
+                        <li><a href="#NAV">NAV</a></li>
+                        <li><a href="#OXYLOW">OXY LOW</a></li>
+                        <li><a href="#PITCHSAS">PITCH SAS</a></li>
+                        <li><a href="#SEATNOTARMED">SEAT NOT ARMED</a></li>
+                        <li><a href="#SERVICEAIRHOT">SERVICE AIR HOT</a></li>
+                        <li><a href="#STALLSYS">STALL SYS</a></li>
+                        <li><a href="#WINDSHIELDHOT">WINDSHIELD HOT</a></li>
+                        <li><a href="#WINGPUMP">L / R WING PUMP</a></li>
+                        <li><a href="#YAWSAS">YAW SAS</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <h3>Layout</h3>
+        <img src="CautionLights.jpg"/>
+        <h3>Details</h3>
+        <table class="standard">
+            <tr>
+                <th>Caution Light</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td class="caution">L / R AIL</td>
+                <td><a name="AIL"/>Either the left or right aileron has jammed.</td>
+            </tr>
+            <tr>
+                <td class="caution">AIL DISENG</td>
+                <td><a name="AILDISENG"/>Either the left or right aileron has been disengaged from the control stick.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R AIL TAB</td>
+                <td><a name="AILTAB"/>tab shift actuator has extended in manual reversion flight control mode.</td>
+            </tr>
+            <tr>
+                <td class="caution">ANTI-SKID</td>
+                <td>
+                    <a name="ANTISKID"/>
+                    One of the following conditions is true:
+                    <ul>
+                        <li>The anti-skid switch is set to OFF while the landing gear is down.</li>
+                        <li>The anti-skid switch is set to ON, but there is a failure in the anti-skid system.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="caution">APU GEN</td>
+                <td><a name="APUGEN"/>The APU generator switch is set to PWR, but the APU is not generating power.</td>
+            </tr>
+            <tr>
+                <td class="caution">BLEED AIR LEAK</td>
+                <td><a name="BLEEDAIRLEAK"/>A temperature sensor has detected a bleed air leak.</td>
+            </tr>
+            <tr>
+                <td class="caution">CADC</td>
+                <td><a name="CADC"/>The Central Air Data Computer (CADC) has failed. Certain failures of the CADC can cause erroneous data to be displayed. The HUD will display the last valid airspeed and altitude data before the failure and you will see the <b>CADC FAIL</b> and <b>INS DEGRADED</b> messages on the CDU.</td>
+            </tr>
+            <tr>
+                <td class="caution">CICU</td>
+                <td><a name="CICU"/>The Central Interface Control Unit (CICU) has failed.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R CONV</td>
+                <td><a name="CONV"/>Either the left or right electrical converter has failed.</td>
+            </tr>
+            <tr>
+                <td class="caution">EAC</td>
+                <td><a name="EAC"/>The LASTE Enhanced Attitude Control (EAC) has failed.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R ELEV</td>
+                <td><a name="ELEV"/>The left or right elevator has jammed.</td>
+            </tr>
+            <tr>
+                <td class="caution">ELEV DISENG</td>
+                <td><a name="ELEVDISENG"/>Either the left or right elevator has been disengaged from the control stick.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R ENG HOT</td>
+                <td><a name="ENGHOT"/>Either engine ITT indication exceeds 880°C.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R ENG OIL PRESS</td>
+                <td><a name="ENGOILPRESS"/>Either engine oil pressure indication has fallen below 34 PSI.</td>
+            </tr>
+            <tr>
+                <td class="caution">ENG START CYCLE</td>
+                <td><a name="ENGSTARTCYCLE"/>An engine is conducting its automatic startup cycle. The air turbine starter solenoid valve is open with the throttle at IDLE, but core engine speed is below 56%. The light will also illuminate when either engine operate switch is in the MOTOR position.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R FUEL PRESS</td>
+                <td><a name="FUELPRESS"/>The indicated fuel pump has failed, either due to low differential fuel pressure or a clog in the engine feed line.</td>
+            </tr>
+            <tr>
+                <td class="caution">GCAS</td>
+                <td><a name="GCAS"/>The Ground Collision Avoidance System (GCAS) is inoperative.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R GEN</td>
+                <td><a name="GEN"/>Either the generator is set to OFF / RESET, or there is a failure. Such a failure will also lead to the failure of the main and wing boost pumps, as well as both SAS channels.</td>
+            </tr>
+            <tr>
+                <td class="caution">GUN UNSAFE</td>
+                <td><a name="GUNUNSAFE"/>A live round remains in the barrel after the gun has been fired.</td>
+            </tr>
+            <tr>
+                <td class="caution">HARS</td>
+                <td><a name="HARS"/>The Heading / Attitude Reference System (HARS) is offline and not providing usable data.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R HYD PRESS</td>
+                <td>
+                    <a name="HYDPRESS"/>
+                    Either of the following conditions are true:
+                    <ul>
+                        <li>Either hydraulic system pressure indication has fallen below 900 PSI</li>
+                        <li>Manual reversion mode is enabled</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="caution">L / R HYD RES</td>
+                <td><a name="HYDRES"/>The volume of hydraulic fluid in the resevoir is low.</td>
+            </tr>
+            <tr>
+                <td class="caution">IFF MODE-4</td>
+                <td><a name="IFFMODE4"/>IFF Mode 4 is inoperative due to the IFF panel being zeroized or a system failure.</td>
+            </tr>
+            <tr>
+                <td class="caution">INST INV</td>
+                <td><a name="INSTINV"/>The instrument inverter switch is inoperative and indicates that no power is being provided to the AC essential busses. This is indicative of the loss of both AC generators. This condition will also lead to the L / R ENG HOT caution lights activating.</td>
+            </tr>
+            <tr>
+                <td class="caution">L-R TKS UNEQUAL</td>
+                <td><a name="LRTKSUNEQUAL"/>There is an imbalance of greater than 750 lbs in the fuel quantity of the two main fuselage fuel tanks.</td>
+            </tr>
+            <tr>
+                <td class="caution">LASTE</td>
+                <td><a name="LASTE"/>The Low Altitude Safety and Targeting Enhancement (LASTE) system is inoperative.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R MAIN FLOW LOW</td>
+                <td><a name="MAINFLOWLOW"/>Fuel quantity is below 500 lbs.</td>
+            </tr>
+            <tr>
+                <td class="caution">L / R MAIN PUMP</td>
+                <td><a name="MAINPUMP"/>Indicates a possible fuel pump failure due to low fuel pressure at the outlet of the specified fuel boost pump.</td>
+            </tr>
+            <tr>
+                <td class="caution">NAV</td>
+                <td>
+                    <a name="NAV"/>
+                    One of the following is true:
+                    <ul>
+                        <li>One of the EGI flight instruments have failed</li>
+                        <li>EGI is not ready</li>
+                        <li>EGI GPS has failed</li>
+                        <li>EGI INS has failed</li>
+                        <li>CDU has failed</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="caution">OXY LOW</td>
+                <td><a name="OXYLOW"/>There is 0.5 liters or less remaining in the oxygen tank.</td>
+            </tr>
+            <tr>
+                <td class="caution">PITCH SAS</td>
+                <td><a name="PITCHSAS"/>One or both pitch stability augmentation system (SAS) channels have failed.</td>
+            </tr>
+            <tr>
+                <td class="caution">SEAT NOT ARMED</td>
+                <td><a name="SEATNOTARMED"/>The ejection seat ground safety lever is in the SAFE position.</td>
+            </tr>
+            <tr>
+                <td class="caution">SERVICE AIR HOT</td>
+                <td><a name="SERVICEAIRHOT"/>The pre-cooler output air temperature is too hot.</td>
+            </tr>
+            <tr>
+                <td class="caution">STALL SYS</td>
+                <td><a name="STALLSYS"/>There has been a failure in the alpha/mach computer and the stall warning system is inoperative. Slats will extend automatically in this situation.</td>
+            </tr>
+            <tr>
+                <td class="caution">WINDSHIELD HOT</td>
+                <td>
+                    <a name="WINDSHIELDHOT"/>
+                    One of the following is true:
+                    <ul>
+                        <li>The windshield anti-icing temperature is higher than 150°F</li>
+                        <li>The aircraft is on battery power only</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="caution">L / R WING PUMP</td>
+                <td><a name="WINGPUMP"/>Indicates a possible fuel pump failure due to low fuel pressure at the outlet of the specified fuel boost pump.</td>
+            </tr>
+            <tr>
+                <td class="caution">YAW SAS</td>
+                <td><a name="YAWSAS"/>One or both yaw stability augmentation system (SAS) channels have failed.</td>
+            </tr>
+        </table>
+    </body>
+</html>
