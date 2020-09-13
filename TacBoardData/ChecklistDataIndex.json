@@ -1408,6 +1408,152 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "title": "In Air Refueling",
+                            "sections": [
+                                {
+                                    "title": "Preparation",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "Intent to Refuel",
+                                            "subtext": "Throttle Radio Switch",
+                                            "action": "Notify",
+                                            "comment": "Notify tanker of intent to refuel on VHF AM radio. Do not approach tanker until cleared."
+                                        },
+                                        {
+                                            "text": "MASTER ARM",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "SAFE"
+                                        },
+                                        {
+                                            "text": "GUN / PAC",
+                                            "subtext": "Armament / HUD Control Panel",
+                                            "action": "SAFE"
+                                        },
+                                        {
+                                            "text": "Maverick EO",
+                                            "subtext": "MFCD - MAV Page",
+                                            "action": "OFF"
+                                        },
+                                        {
+                                            "text": "CMSP MODE Dial",
+                                            "subtext": "CMSP Panel",
+                                            "action": "STBY"
+                                        },
+                                        {
+                                            "text": "Exterior Lights",
+                                            "subtext": "Lighting Control Panel",
+                                            "action": "As Needed"
+                                        },
+                                        {
+                                            "text": "L / R FILL DISABLE MAIN",
+                                            "subtext": "Fuel System Control Panel",
+                                            "action": "As Needed",
+                                            "comment": "Disable fill to damaged / leaking fuel tanks."
+                                        },
+                                        {
+                                            "text": "L / R FILL DISABLE WING",
+                                            "subtext": "Fuel System Control Panel",
+                                            "action": "As Needed",
+                                            "comment": "Disable fill to damaged / leaking fuel tanks."
+                                        },
+                                        {
+                                            "text": "TK GATE",
+                                            "subtext": "Fuel System Control Panel",
+                                            "action": "CLOSE"
+                                        },
+                                        {
+                                            "text": "Refuel Lever",
+                                            "subtext": "Fuel System Control Panel",
+                                            "action": "OPEN"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Refuel Status Light",
+                                            "subtext": "Canopy Bow",
+                                            "action": "Confirm READY"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Refueling",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "Tanker Contact",
+                                            "subtext": "Throttle Radio Switch",
+                                            "action": "Request",
+                                            "comment": "Request clearance to contact tanker boom on VHF AM radio."
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Approach tanker boom at differential speed of 2-3 knots. Allow the boom operator to \"fly\" the boom to the refuel slipway. Do not chase the boom."
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Refuel Status Light",
+                                            "subtext": "Canopy Bow",
+                                            "action": "Confirm LATCHED"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Wait for refueling to complete."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Reconnect",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "If aircraft disconnects from boom before refueling is complete:"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Refuel Status Light",
+                                            "subtext": "Canopy Bow",
+                                            "action": "Conform DISCONNECT"
+                                        },
+                                        {
+                                            "text": "NWS Button",
+                                            "subtext": "Control Stick",
+                                            "action": "Press"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Refuel Status Light",
+                                            "subtext": "Canopy Bow",
+                                            "action": "Confirm READY"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Approach boom and allow operator to reconnect with the aircraft."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Disconnect",
+                                    "items": [
+                                        {
+                                            "type": "Comment",
+                                            "text": "Refuel Status Light",
+                                            "subtext": "Canopy Bow",
+                                            "action": "Conform DISCONNECT"
+                                        },
+                                        {
+                                            "type": "Comment",
+                                            "text": "Reduce power. Move down and away from the tanker into an observation position."
+                                        },
+                                        {
+                                            "text": "Refuel Lever",
+                                            "subtext": "Fuel System Control Panel",
+                                            "action": "CLOSE"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
